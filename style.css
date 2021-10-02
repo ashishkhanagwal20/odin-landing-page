@@ -1,3 +1,7 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
 body {
   display: flex;
   flex-direction: column;
@@ -20,7 +24,7 @@ img {
 
 li {
   display: flex;
-  margin: 10px 25px;
+  padding: 25px;
 }
 
 #liGrass {
@@ -33,11 +37,146 @@ a {
   font-size: large;
 }
 
-.container {
-  border: 2px solid yellowgreen;
+#container1 {
   background-color: #1f2937;
+  display: flex;
+  padding: 50px;
+}
+
+h1 {
+  font-size: 48px;
+  font-weight: extra bold;
+  color: #f9faf8;
+}
+
+#intro {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  border-radius: 8px;
+  width: 120px;
+  height: 50px;
+  text-align: center;
+  padding: 10px;
+  border-color: white;
+  border-style: solid;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+#subContainer1 {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  flex-wrap: wrap;
 }
 
 #main-img {
   border-radius: 50%;
+  margin-left: 250px;
+}
+
+#container2 {
+  text-align: center;
+}
+
+h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.pokeImages {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 40px;
+}
+
+.poke2Images {
+  margin: 10px 40px 5px 40px;
+  border: 4px solid #3882f6;
+  border-radius: 10px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+#charmander {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(245, 135, 10);
+}
+#squirtle {
+  font-size: large;
+  font-weight: bold;
+  color: rgb(0, 195, 255);
+}
+#pikachu {
+  font-size: large;
+  font-weight: bold;
+  color: goldenrod;
+}
+#trinity {
+  font-size: large;
+  font-weight: bold;
+  color: red;
+}
+
+#quoteContainer {
+  background-color: #e5e7eb;
+  padding: 30px 40px 20px 40px;
+}
+
+#quote {
+  font-size: 36px;
+  font-style: italic;
+  color: #1f2937;
+}
+
+#author {
+  font-size: 24px;
+  margin-left: 1100px;
+}
+
+#newsletter {
+  box-sizing: border-box;
+  background-color: #3882f6;
+  display: flex;
+  justify-content: space-evenly;
+  border-radius: 5px;
+  height: max-content;
+  margin: 75px 150px;
+  padding: 20px;
+}
+
+/* #secondButton {
+  margin-top: 
+} */
+
+#signup2 {
+  color: #f9faf8;
+  font-size: 24px;
+}
+
+#signup3 {
+  color: #e5e7eb;
+  font-size: 18px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0c1c3e;
+  height: 10vh;
+  color: #e5e7eb;
 }
